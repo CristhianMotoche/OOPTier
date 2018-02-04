@@ -66,3 +66,4 @@ garantiza la modularidad, facilitando la reutilización del software y gran part
 de las tareas del desarrollo del software.
 
 - [1] [Acoplamiento y cohesión](https://dosideas.com/noticias/java/502-acoplamiento-y-cohesion)
+- [2] [Acoplamiento y cohesión. Taxonomía](http://latecladeescape.com/h/2015/07/acoplamiento-y-cohesion<Paste>)
