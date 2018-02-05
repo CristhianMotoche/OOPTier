@@ -50,12 +50,12 @@ El criterio por el cual se agrupan es la cohesión.
 
 Existen diferentes niveles de cohesión:
 
-- Cohesión funcional
-- Cohesión secuencial
-- Cohesión de datos
-- Cohesión lógica
-- Cohesión temporal
-- Cohesión casual
+- Cohesión funcional (todas las unidades de sw contribuyen a realizar el mismo fin)
+- Cohesión secuencial (los resultado de unas unidades de sw se utilizan para continuar trabajando)
+- Cohesión de datos (las unidades trabajan sobre los mismos datos)
+- Cohesión lógica (las unidades realizan trabajo en una misma categoía pero no tienen relación entre ellas)
+- Cohesión temporal (se las une simplemente por tener que ejecutarse al mismo momento)
+- Cohesión casual (sin criterio alguno para agrupar las unidades)
 
 La lista anterior va de mayor a menor cohesión.
 
