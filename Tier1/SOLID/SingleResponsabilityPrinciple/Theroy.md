@@ -50,5 +50,10 @@ página actual. Si posteriormente se desea que se imprima también el nombre del
 autor, existirá una razón de cambio para la clase `Book`. Si además también se
 desea que en lugar de imprimir en consola se imprima en formato HTML, habrá otra
 razón por la cual cambiar.
+- Mezclar la lógica de negocio con la presentación va encontra del SRP.
 
-Mezclas la lógica de negocio con la presentación va encontra del SRP.
+
+La **responsabilidad en este contexto** se representa como "una razón para cambiar".
+
+Es importante tener en cuenta este principio. Sin embargo, su sobreuso lleva a
+problemas como la optimización prematura.
