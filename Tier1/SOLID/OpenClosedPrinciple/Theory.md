@@ -27,3 +27,5 @@ Las clases abstractas pueden representar el comportamiento fijo y sus clases
 derivadas representarán el grupo ilimitado de posibles comportamientos.
 Un módulo puede depender de una abstracción, la cual es fija, y el comportamiento
 de ese módulo puede ser extendido al crear nuevas clases derivadas de la abstracción.
+
+A mi punto de visto es una simple inversión de dependencias.
