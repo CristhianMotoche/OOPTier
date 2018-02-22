@@ -25,3 +25,13 @@ Existen operaciones en Rectángulo que no coinciden con las del Cuadrado.
 `setWidth` y `setHeight` se comportande forma diferente en la clase Cuadrado y
 Rectángulo. Por lo tanto, no podría substituirse Cuadrado por Rectángulo en
 alguna función.
+
+## La validez no es intrínseca
+Un objeto visto aisladamente no puede ser evaluado significativamente. La validez
+de un modelo solo puede ser expresada en términos de sus clientes.
+
+En el caso del Cuadrado y el Rectángulo, se puede notar que aisladamente ambos
+se comportan de forma esperada. Sin embargo, al ser analizados al mismo tiempo
+que el uno no debería ser subclase del otro, ya que el **comportamiento** de ambos
+es diferente y aquí nos referimos a **comportamiento público**, no tanto el privado.
+Ya que ocurrirán problemas en los clientes de esas clases.
