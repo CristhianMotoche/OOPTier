@@ -10,6 +10,19 @@ class Carro(Vehiculo)
   pass
 ```
 
+La herencia tiene dos propósitos: semántica y mecánica.
+
+### Semántica:
+Captura el significado en una taxonomía. La clase derivada se acopla a la clase base
+tanto en atributos y métodos como en significado.
+
+### Mecánica:
+Atributos y métodos de una clase base son heredados por una clase derivada. La clase
+derivada puede extender sus atributos y comportamientos.
+
+
+La reutilización de código no es el principal propósito de la herencia.
+
 ## Advantages
 
 * Las clases derivadas adquiren el comportamiento (o pueden extenderlo) de su clase
