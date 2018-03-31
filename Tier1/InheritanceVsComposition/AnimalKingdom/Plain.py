@@ -32,7 +32,7 @@ class Dolphin(object):
         pass
 
     def swim(self):
-        print("yeah, i can swim")
+        print("yeah! i can swim")
 
     def whistles(self):
         print("iiiiiii")
@@ -50,9 +50,6 @@ class PlatyPus(object):
     def call(self):
         print("grrrr")
 
-    def give_birth(self):
-        pass
-
 ## Birds
 class Pigeon(object):
     def __init__(self, name, birthday, plumage):
@@ -68,7 +65,7 @@ class Parrot(object):
     def __init__(self, name, birthday, plumage):
         pass
 
-    def parrot(self):
+    def fly(self):
         pass
 
     def lay_eggs(self):
@@ -79,4 +76,7 @@ class Penguin(object):
         pass
 
     def lay_eggs(self):
+        pass
+
+    def swim(self):
         pass
