@@ -20,8 +20,17 @@ tanto en atributos y métodos como en significado.
 Atributos y métodos de una clase base son heredados por una clase derivada. La clase
 derivada puede extender sus atributos y comportamientos.
 
-
 La reutilización de código no es el principal propósito de la herencia.
+
+En la herencia se comienza por lo general y luego se va haciendo específico.
+
+```
+    Figura
+       |
+    ___|___
+   |       |
+Cuadrado Triángulo
+```
 
 ## Advantages
 
@@ -42,6 +51,13 @@ class Carro(object):
 
 class Llantas(object)
   pass
+```
+
+En la composición se comienza por lo específico y luego se va armando algo igualmente
+específico.
+
+```
+Monitor ----<> Computador
 ```
 
 ## Advantages
